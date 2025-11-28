@@ -1,0 +1,50 @@
+{
+    "int_columns": {
+        "glucose_postprandial": {
+            "min": 70,
+            "max": 287
+        },
+        "glucose_fasting": {
+            "min": 60,
+            "max": 172
+        },
+        "physical_activity_minutes_per_week": {
+            "min": 0,
+            "max": 833
+        },
+        "family_history_diabetes": {
+            "min": 0,
+            "max": 1
+        },
+        "age": {
+            "min": 18,
+            "max": 90
+        },
+        "triglycerides": {
+            "min": 30,
+            "max": 344
+        }
+    },
+    "float_columns": {
+        "hba1c": {
+            "min": 4.0,
+            "max": 9.8
+        },
+        "diabetes_risk_score": {
+            "min": 2.7,
+            "max": 67.2
+        },
+        "waist_to_hip_ratio": {
+            "min": 0.67,
+            "max": 1.06
+        },
+        "ldl_hdl_ratio": {
+            "min": 0.5208333333333334,
+            "max": 11.3
+        },
+        "insulin_level": {
+            "min": 2.0,
+            "max": 32.22
+        }
+    }
+}
